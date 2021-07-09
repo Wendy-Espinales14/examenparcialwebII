@@ -2,7 +2,7 @@ const { model, Schema } = require('mongoose');
 
 const calificacion = new Schema({
   estudiante: String,
-  teoria: String,
+  teoria: Number,
   practica: Number,
   adicional: Number,
   estado: String,
